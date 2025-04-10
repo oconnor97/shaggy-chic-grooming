@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/CSS/styles.css" />
+    <link rel="stylesheet" href="./assets/CSS/mediequeries.css" />
+    <script src="./assets/JS/script.js" defer></script>
+    <title>SHAGGY CHIC</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="hero-img-container">
+        <img
+          src="./assets/images/shaggyChic.jpg"
+          alt="Shaggy Chic Brand Logo"
+          class="hero-img"
+        />
+      </div>
+    </header>
+    <nav id="desktop-nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Meet The Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="mobile-nav">
+        <div class="mobile-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#team" onclick="toggleMenu()">Meer The Team</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+  </body>
+</html>
