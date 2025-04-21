@@ -10,13 +10,16 @@
     --dark-pink: rgb(161, 37, 91) ;
     --light-pink-text: rgb(241, 187, 213);
     --white-text: rgb(255, 255, 255);
+    --dark-pink-text: rgb(161, 37, 91) ;
+    --light-pink: rgb(241, 187, 213);
 
   
   }
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: var(--dark-pink);
+  background-color: var(--light-pink);
+  /* display: flex; */
 }
 
 html {
@@ -26,23 +29,7 @@ p {
     color: var(--white-text)
 }
 
-/* Header */
-#header {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 25vh;
-}
 
-.hero-img-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-.hero-img {
-    border-radius: 50%;
-}
 
 /* Nav */
 
@@ -60,6 +47,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background-color: var(--dark-pink);
 }
 
 .nav-links {
@@ -151,4 +139,47 @@ a:hover {
   .hamburger-icon span:first-child {
     transform: none;
   }
-  
+  /* Welcome Seciton */
+#welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    height: 25vh;
+}
+.welcome-text {
+    /* justify-self: center; */
+    color: var(--dark-pink-text);
+    font-weight: 400;
+    font-size: 2rem;
+
+}
+
+.img-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+img {
+    border-radius: 50%;
+}
+.brand-statement-text {
+    justify-self: center;
+    color: var(--dark-pink-text);
+    font-size: 1.25rem;
+
+}
+
+
+
+
+    /* FOOTER SECTION */
+    /* footer {
+        height: 26vh;
+        margin: 0 1rem;
+        background-color: var(--dark-pink);
+      }
+      footer p {
+        text-align: center;   
+      } */
