@@ -9,18 +9,11 @@
     <title>SHAGGY CHIC</title>
   </head>
   <body>
-    <header id="header">
-      <div class="hero-img-container">
-        <img
-          src="./assets/images/shaggyChic.jpg"
-          alt="Shaggy Chic Brand Logo"
-          class="hero-img"
-        />
-      </div>
-    </header>
+    
     <nav id="desktop-nav">
         <div>
           <ul class="nav-links">
+            <li><a href="#welcome">Welcome</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#team">Meet The Team</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -35,6 +28,7 @@
             <span></span>
           </div>
           <div class="menu-links">
+            <li><a href="#welcome" onclick="toggleMenu()">Welcome</a></li>
             <li><a href="#services" onclick="toggleMenu()">Services</a></li>
             <li><a href="#team" onclick="toggleMenu()">Meer The Team</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -43,6 +37,24 @@
       </nav>
       <!-- TO DO -->
        <!-- Fix mobile nav bar -->
+      <section id="welcome">
+        <div class="weclome-container">
+
+            <p class="welcome-text">
+                WELCOME TO
+            </p>
+        </div>
+        <div class="img-container">
+            <img src="./assets/images/shaggyChic.jpg" alt="Shaggy Chic Logo Image">
+        </div>
+        <p class="brand-statement-text">
+            A neighborhood grooming boutique where your dog is treated like royalty—pampered with love, styled with flair, and cared for like family.
+        </p>
+      </section>
+       <!-- <footer>
+        <p>Copyright &#169; 2025 Shaggy Chic. All Rights Reserved</p>
+      </footer> -->
+       
 
 
   </body>
